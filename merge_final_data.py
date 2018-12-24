@@ -34,6 +34,8 @@ def main():
     read_group('result_d.txt', rooms_d)
     print("a size:%d" % len(rooms_a))
     
+    #file formet
+    #rid@=111 own_id@=222 sc@=200
     fp = open('flow_log.txt', 'r')
     wfp = open('result.txt', 'a')
     while 1:
