@@ -20,6 +20,8 @@ def read_group(file_name, group_set):
             #print("%s" % line)
             
 def read_room_guild(room_guild):
+    #file fomert
+    #rid,gid
     with open('anchor_guild_info.csv','r') as fp:
         while 1:
             line = fp.readline()
@@ -33,6 +35,8 @@ def read_room_guild(room_guild):
             room_guild[int(k)] = int(v)
     
 def read_guild_info(guild_info):
+    #file fomert
+    #gid,ggid
     with open('simple_guild.csv','r') as fp:
         while 1:
             line = fp.readline()
