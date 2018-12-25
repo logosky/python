@@ -1,6 +1,9 @@
 #!/usr/bin/python
 #coding:UTF-8
 
+'''
+读取两个文件，对两份数据进行映射处理
+'''
 import sys
 import os
 import getopt
