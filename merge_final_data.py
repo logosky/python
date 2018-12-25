@@ -1,7 +1,10 @@
 #!/usr/bin/python
 #coding:UTF-8
 
-#merge data from 'merge_file_dat.py' result
+'''
+读取 'merge_file_dat.py' 处理的映射结果数据txt
+再读取多个txt分组文件，对数据进行最终的映射，写入结果到txt
+'''
 import sys
 import os
 import getopt
